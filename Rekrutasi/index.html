@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+    <link rel="icon" type="image/png" href="nw.png"/>
+    <script defer src="./js/index.js"></script>
+    <title>Form Rekruitasi</title>
+    <meta name="title" content="Rekruitasi" />
+    <title>Rekrutasi Pegawai</title>
+    
+  </head>
+
+  <body>
+ <div class="overlay hidden">
+      <button class="btn-close" id="btn-close">X</button>
+    </div>
+    <form class="form">
+
+
+      <ul class="container">
+        <img src="3point0.png"style="width: 9rem;"/> <br><label> Rekrutasi Pegawai </label>
+          <li>
+          <br><br><label for="roll-no">Pilihan prioritas</label><br />
+          <input
+            type="number"
+            placeholder="pilihan posisi ke-1"
+            id="roll-no"
+            name="roll-no"
+            required
+          />
+        </li>
+        <li>
+          <label for="karyawan-name">Nama</label><br />
+          <input
+            type="text"
+            placeholder="Masukan Namamu"
+            id="karyawan-name"
+            name="karyawan-name"
+            required
+          />
+        </li>
+        <li>
+          <label for="subject">Nomor Telphone</label><br />
+          <input
+            type="text"
+            placeholder="Nomor Telphone"
+            id="subject"
+            name="subject"
+            required
+          />
+        </li>
+        <li>
+          <label for="kerja">vacancy</label><br/>
+          <select name="" id="kerja">
+          <option value="it support">it support</option>
+          <option value="Developper">Developper</option>
+          <option value="HCM">HCM</option></select></br>
+          </li>
+        <li>
+          <label for="pegawai">Posisi.</label><br/>
+          <select name="" id="pegawai">
+          <option value="Bandung">Bandung</option>
+          <option value="DKI JAKARTA">DKI JAKARTA</option>
+          </select>
+          </br>
+          </li>
+        <select name="" id="store">
+          <option value="1">localStorage</option>
+          <option value="2">SeasionStorage</option>
+        </select>
+        <li class="button">
+          <button class="btn" >Submit</button>
+          <button class="submit-btn hide">Submit</button>
+        </li>
+      </ul>
+    </form>
+    <div class="main">
+      <div class="txt-container">
+        <div class="all-txt">
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
